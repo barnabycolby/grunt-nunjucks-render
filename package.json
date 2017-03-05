@@ -1,5 +1,5 @@
 {
-  "name": "grunt-nunjucks-render",
+  "name": "grunt-nunjucks-render-alt",
   "version": "0.4.0",
   "description": "Render nunjucks templates",
   "main": "tasks/nunjucks_render.js",
@@ -27,16 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/piwi/grunt-nunjucks-render"
+    "url": "https://github.com/barnabycolby/grunt-nunjucks-render-alt"
   },
   "keywords": [
     "gruntplugin",
     "nunjucks"
   ],
   "author": {
-    "name": "piwi",
-    "email": "me@e-piwi.fr",
-    "url": "http://e-piwi.fr/"
+    "name": "Barnaby Colby",
+    "url": "https://barnabycolby.io"
   },
   "licenses": [
     {
@@ -45,7 +44,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/piwi/grunt-nunjucks-render/issues"
+    "url": "https://github.com/barnabycolby/grunt-nunjucks-render-alt/issues"
   },
-  "homepage": "https://github.com/piwi/grunt-nunjucks-render"
+  "homepage": "https://github.com/barnabycolby/grunt-nunjucks-render-alt"
 }

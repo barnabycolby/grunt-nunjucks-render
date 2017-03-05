@@ -1,8 +1,7 @@
-grunt-nunjucks-render
-=====================
+grunt-nunjucks-render-alt
+=========================
 
-[![Build Status](https://travis-ci.org/piwi/grunt-nunjucks-render.svg?branch=master)](https://travis-ci.org/piwi/grunt-nunjucks-render)
-[![Code Climate](https://codeclimate.com/github/piwi/grunt-nunjucks-render/badges/gpa.svg)](https://codeclimate.com/github/piwi/grunt-nunjucks-render)
+[![Build Status](https://travis-ci.org/barnabycolby/grunt-nunjucks-render-alt.svg?branch=master)](https://travis-ci.org/barnabycolby/grunt-nunjucks-render-alt)
 
 This is a [grunt](http://gruntjs.com/) plugin to render [nunjucks](http://mozilla.github.io/nunjucks/) 
 templates and strings. It takes data in `JSON` or `YAML` format and allows to configure *nunjucks* in
