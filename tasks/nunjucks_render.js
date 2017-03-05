@@ -40,7 +40,8 @@ module.exports = function gruntTask(grunt) {
             processData:    function(data){ return data; },
             env:            null,
             strAdd:         'prepend',
-            strSeparator:   "\n"
+            strSeparator:   "\n",
+            modifyEnv:      null
         });
         
         // be sure to have extensions as an array with leading dot
@@ -72,6 +73,11 @@ module.exports = function gruntTask(grunt) {
         // Customise the Nunjucks Environment object
         opts.env.addFilter('date', dateFilter);
         opts.env.addGlobal('template_date', new Date());
+
+        // if the user has provided a function to modify the nunjucks environment, we apply it here
+        if (opts.modifyEnv !== null) {
+            opts.env = opts.modifyEnv(opts.env);
+        }
 
         // iterate over all specified file groups
         this.files.forEach(function(file)
