@@ -17,13 +17,13 @@ This plugin requires Grunt `~0.4.1` and Node `~0.10.0`. Please first have a look
 You may install this plugin with this command:
 
 ```shell
-npm install grunt-nunjucks-render --save-dev
+npm install grunt-nunjucks-render-alt --save-dev
 ```
 
 Once the plugin is installed, it may be enabled inside your `Gruntfile.js` with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-nunjucks-render');
+grunt.loadNpmTasks('grunt-nunjucks-render-alt');
 ```
 
 
@@ -266,12 +266,12 @@ or modules.
 
 ### `NunjucksRenderFile`
 
-    var NunjucksRenderFile = require('grunt-nunjucks-render/lib/render-file');
+    var NunjucksRenderFile = require('grunt-nunjucks-render-alt/lib/render-file');
     var content = NunjucksRenderFile( filepath , data[ , options ][ , nunjucks.Environment ]);
 
 ### `NunjucksRenderString`
 
-    var NunjucksRenderString = require('grunt-nunjucks-render/lib/render-string');
+    var NunjucksRenderString = require('grunt-nunjucks-render-alt/lib/render-string');
     var content = NunjucksRenderString( str , data[ , options ][ , nunjucks.Environment ]);
 
 
